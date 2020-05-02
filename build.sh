@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-ORG="sybnex"
+ORG="sybex"
 APP="webcam"
 
 docker build -t $ORG/$APP .
