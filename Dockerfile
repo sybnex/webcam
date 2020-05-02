@@ -1,7 +1,7 @@
 FROM arm32v6/alpine
 LABEL maintainer="sybnex"
 
-RUN apk --no-cache add python3 raspberrypi-libs \
+RUN apk --no-cache add python3 raspberrypi raspberrypi-libs \
     && pip3 install --upgrade pip \
     && pip3 install picamera --no-cache-dir \
     && adduser -D webcam
