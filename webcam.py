@@ -13,11 +13,11 @@ PAGE="""\
 <html>
   <head>
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <title>Pi Zero - 3D Printer Camera</title>
+    <title>Pi Zero - Camera</title>
   </head>
   <body>
     <center>
-      <h3>Pi Zero - 3D Printer Camera</h3>
+      <h3>Pi Zero - Camera</h3>
       <img class="img-responsive" src="stream.mjpg" width="1280" height="720">
     </center>
   </body>
